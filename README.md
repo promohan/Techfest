@@ -8,8 +8,8 @@ This project provides a clean and engaging interface for users to explore **even
 
 ## 🌐 Live Demo
 
-🔗 **GitHub Repository**
-[https://github.com/promohan/Techfest](https://github.com/promohan/Techfest)
+🔗 **View live**
+[https://github.com/promohan/Techfest](https://promohan.github.io/Techfest/)
 
 ---
 
