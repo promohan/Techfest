@@ -6,11 +6,16 @@ This project provides a clean and engaging interface for users to explore **even
 
 ---
 
-## 🌐 Live Demo
 
-🔗 **View live**
-[https://github.com/promohan/Techfest](https://promohan.github.io/Techfest/)
+🌐 Live Demo
 
+🚀 View the Live Website
+
+🔗 Live Project [https://github.com/promohan/Techfest](https://promohan.github.io/Techfest/)
+
+📂 GitHub Repository https://github.com/promohan/gym-website
+
+📸 Website Preview
 ---
 
 ## 📌 Project Overview
