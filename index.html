@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH-FEST 2026 | Pure Innovation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-box">IT</div>
+                <span>TECH<span class="blue-text">FEST</span></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search events...">
+                </div>
+                <button class="login-btn">Login</button>
+                <div id="theme-toggle" class="theme-icon">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Decode The <br><span class="gradient-text">Future of Tech</span></h1>
+            <p class="hero-subtitle">The most awaited IT Festival of 2026. Join 5000+ developers, designers, and innovators for a 3-day journey of pure creativity.</p>
+            <div class="hero-btns">
+                <button class="btn-primary">Register Now</button>
+                <button class="btn-secondary">Explore Events</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-blob"></div>
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800" alt="Tech Fest">
+        </div>
+    </section>
+
+    <section id="features" class="cards-section">
+        <h2 class="section-title">Why Join Us?</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=400" alt="Hackathon">
+                </div>
+                <div class="card-body">
+                    <h3>24h Hackathon</h3>
+                    <p>Build innovative solutions under pressure and win massive cash prizes and internships.</p>
+                    <button class="card-btn">View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=400" alt="Workshops">
+                </div>
+                <div class="card-body">
+                    <h3>Expert Workshops</h3>
+                    <p>Learn from industry leaders from Google, Meta, and Microsoft about AI and Cloud.</p>
+                    <button class="card-btn">View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=400" alt="Networking">
+                </div>
+                <div class="card-body">
+                    <h3>Networking Hub</h3>
+                    <p>Connect with recruiters and like-minded tech enthusiasts in our lounge area.</p>
+                    <button class="card-btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">Voices of Success</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <h4 class="test-title">"Life Changing"</h4>
+                <p class="test-content">Attending the IT Fest last year helped me land my first job. The networking opportunities are unmatched!</p>
+                <span class="author">- Sarah Jenkins, Lead Dev</span>
+            </div>
+            <div class="testimonial-card">
+                <h4 class="test-title">"Best Competition"</h4>
+                <p class="test-content">The Hackathon was intense and well-organized. I've never seen such a gathering of talent in one place.</p>
+                <span class="author">- Mike Ross, Full Stack</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="form-section">
+        <div class="form-container">
+            <h2>Join the Wave</h2>
+            <form id="festForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <small class="error-msg">Please enter a valid name</small>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <small class="error-msg">Please enter a valid email</small>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Tell us about your tech stack" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Apply Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">IT TECHFEST</div>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2026 TechFest Global. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
